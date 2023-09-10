@@ -27,4 +27,7 @@ function formCheck(){
         console.log('Form Error')
         return
     }
+    else{
+        //In future handle any additional functionalities
+    }
 }
