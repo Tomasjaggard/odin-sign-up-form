@@ -5,7 +5,6 @@ body{
 
 .container{
     display: flex;
-    flex-direction: row;
 }
 
 #left{
@@ -117,9 +116,9 @@ label{
 }
 
 #submission{
-    height: 35%;
     background-color: #e8e8e8;
     padding-top: 35px;
+    flex:1;
 }
 
 #submission button{
