@@ -44,20 +44,21 @@
                     <div class="form-row">
                         <div class="input-group">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password" minlength="8" placeholder="**********">
+                            <input type="password" name="password" id="password" value="" minlength="8" placeholder="**********" oninput="passwordCheck()">
                         </div>
                         <div class="input-group">
                             <label for="password_confirm">CONFIRM PASSWORD</label>
-                            <input type="password" name="password_confirm" id="password_confirm" minlength="8" placeholder="**********">
+                            <input type="password" name="password_confirm" id="password_confirm" value="" minlength="8" placeholder="**********" oninput="passwordCheck()">
                         </div>
                     </div>
                 </form>
             </div>
             <div id="submission">
-                <button type="submit" form="detailsForm">Create Account</button>
+                <button type="submit" form="detailsForm" onclick="formCheck()">Create Account</button>
                 <p>Already have an account? <span>Log in</span></p>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
